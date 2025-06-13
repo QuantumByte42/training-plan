@@ -2,6 +2,7 @@
 const nextConfig = {
   output: "export",
   basePath: '/training-plan',
+  assetPrefix: '/training-plan',
   eslint: {
     ignoreDuringBuilds: true,
   },
