@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: '/training-plan',
+  basePath: '',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -11,6 +11,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
 }
 
 export default nextConfig
