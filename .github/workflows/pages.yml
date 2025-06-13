@@ -22,7 +22,7 @@ jobs:
           node-version: "20"
           cache: "npm"
       - name: Install dependencies
-        run: npm ci
+        run: npm i --force --legacy-peer-deps
       - name: Build with Next.js
         run: npm run build
       - name: Upload artifact
